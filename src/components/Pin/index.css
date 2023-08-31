@@ -1,0 +1,14 @@
+.pin .container {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: lightgray;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.pin .container .item {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+}
